@@ -1,3 +1,5 @@
+#Adding comments
+
 # A comment, this is so you can read your program later.
 # Anything after the # is ignored by python.
 # Comments are made with a -#- octothorpe, hash, mesh or pound character
