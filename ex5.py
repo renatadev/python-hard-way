@@ -16,5 +16,29 @@ print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (my_eyes, my_hair)
 print "His teeth are usually %s depending on the coffee." % my_teeth
 
-print "If I add %d, %d, and %d I get %d." % (
+#Str formatting with %
+#print "If I add %d, %d, and %d I get %d." % (
+#my_age, my_height, my_weight, my_age + my_height + my_weight)
+
+#Str formatting with {} as recommended in CF:G
+print "If I add {}, {}, and {} I get {}.".format(
 my_age, my_height, my_weight, my_age + my_height + my_weight)
+
+
+#String Formatting own example
+name = "Renata"
+age = 21
+
+description = "My name is {} and I'm {}.".format(name, age)
+print description
+
+#Indexing
+description = "My name is {0} and I'm {1}.".format(name, age)
+print description
+
+#Argument specifiers
+#%s - String (or any object with a string representation, like numbers)
+#%d - Integers
+#%f - Floating point numbers
+#%.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+#%x/%X - Integers in hex representation (lowercase/uppercase)
